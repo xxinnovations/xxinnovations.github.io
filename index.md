@@ -5,7 +5,7 @@ active: home
 ---
 
 <div class="splitleft">
-<img class="left" width="400" src="images/Przemek.jpg">
+<img class="left" width="400" src="images/atlas_system.jpg">
 
 </div>
 
