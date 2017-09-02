@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<div id="navigation">
+    <ul>
+            {% if page.active == "home" %}
+            <li class="selected"><a href="/index.html">Home</a></li>
+            {% else %}
+            <li><a href="/index.html">Home</a></li>
+            {% endif %}
+
+            {% if page.active == "people" %}
+            <li class="selected"><a href="/people.html">People</a></li>
+            {% else %}
+            <li><a href="/people.html">People</a></li>
+            {% endif %}
+
+            {% if page.active == "facilities" %}
+            <li class="selected"><a href="/facilities.html">Facilities</a></li>
+            {% else %}
+            <li><a href="/facilities.html">Facilities</a></li>
+            {% endif %}
+
+            {% if page.active == "Safety" %}
+            <li class="selected"><a href="/labsafety.html">Safety</a></li>
+            {% else %}
+            <li><a href="/labsafety.html">Safety</a></li>
+            {% endif %}
+			
+            {% if page.active == "research" %}
+            <li class="selected"><a href="/research.html">Research</a></li>
+            {% else %}
+            <li><a href="/research.html">Research</a></li>
+            {% endif %}
+
+            {% if page.active == "cv" %}
+            <li class="selected"><a href="/cv.html">CV</a></li>
+            {% else %}
+            <li><a href="/cv.html">CV</a></li>
+            {% endif %}
+
+            {% if page.active == "pubs" %}
+            <li class="selected"><a href="/publications.html">Publications</a></li>
+            {% else %}
+            <li><a href="/publications.html">Publications</a></li>
+            {% endif %}
+
+            {% if page.active == "Teaching" %}
+            <li class="selected"><a href="/teaching.html">Teaching</a></li>
+            {% else %}
+            <li><a href="/teaching.html">Teaching</a></li>
+            {% endif %}
+
+            {% if page.active == "SOftware" %}
+            <li class="selected"><a href="/software.html">Software</a></li>
+            {% else %}
+            <li><a href="/software.html">Software</a></li>
+            {% endif %}
+
+			{% if page.active == "News" %}
+            <li class="selected"><a href="/news.html">News</a></li>
+            {% else %}
+            <li><a href="/news.html">News</a></li>
+            {% endif %}
+
+            {% if page.active == "Media" %}
+            <li class="selected"><a href="/socialmedia.html">Media</a></li>
+            {% else %}
+            <li><a href="/socialmedia.html">Media</a></li>
+            {% endif %}
+			
+        </ul>
+	</div>
+    <div class="content">

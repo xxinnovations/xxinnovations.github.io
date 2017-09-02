@@ -1,0 +1,9 @@
+Vinet and Mie-Grüneisen-Debye Equation of State Parameters for Bridgmanite
+           13%Fe-Brg     0%Fe-Brg
+name         val   err    val   err
+V0[Ang^3] 163.16 0.19  162.12 0.13
+K0T[GPa]   243.8 4.3   262.3  3.2
+K'0T       4.160 0.110 4.044  0.075
+Theta0[K]  1000  0     1000   0   
+gamma0     1.400 0.110 1.675  0.045
+q          0.56  0.37  1.39   0.16

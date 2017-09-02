@@ -1,0 +1,15 @@
+# Site settings
+title: Przemek Dera's homepage
+email: pdera@hawaii.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Przemek Dera is an Associate Researcher (Associate Professor) At the Hawaii Institute of Geophysics and Planetology. This is his homepage.
+baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  pdera
+
+# Build settings
+# NOTE MUST BE KRAMDOWN for markdown blocks within html
+markdown: kramdown
+highlighter: rouge
+#pygments: true
+permalink:  /:categories/:title.html
